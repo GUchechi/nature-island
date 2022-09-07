@@ -1,11 +1,10 @@
-import './App.css';
+import { makeStyles } from '@mui/material'
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <h1>Island</h1>
-    </div>
-  );
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App
